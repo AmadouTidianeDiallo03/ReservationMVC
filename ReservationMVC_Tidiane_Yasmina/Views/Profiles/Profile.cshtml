@@ -1,0 +1,28 @@
+﻿
+@model ReservationMVC.Models.ProfilePageModel
+@{
+    ViewData["Title"] = "Mon profil";
+}
+
+<h1 class="mb-4">Mon profil</h1>
+
+<div class="card shadow-sm mb-3">
+    <div class="card-body">
+        <h5 class="card-title mb-3">Informations personnelles</h5>
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Nom complet</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
+
+            <dt class="col-sm-3">Adresse e-mail</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Rôle</dt>
+            <dd class="col-sm-9">@Model.Role</dd>
+        </dl>
+
+        <div class="mt-4 d-flex gap-2">
+            <a class="btn btn-primary btn-sm" asp-action="Edit">✏️ Modifier mon profil</a>
+            <a class="btn btn-outline-secondary btn-sm" asp-controller="Home" asp-action="Index">🏠 Retour à l’accueil</a>
+        </div>
+    </div>
+</div>

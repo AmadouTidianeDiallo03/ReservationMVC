@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ReservationMVC.Models.Offer>
+@{
+    ViewData["Title"] = "Mes offres";
+}
+
+<a asp-controller="Profiles" asp-action="ProviderDashboard" class="btn btn-outline-secondary btn-sm mb-3">⬅ Tableau de bord</a>
+<h1>Mes offres publiées</h1>
+<a asp-action="Create" class="btn btn-primary mb-3">➕ Nouvelle offre</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-light">Aucune offre publiée pour le moment.</div>
+}
+else
+{
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Catégorie</th>
+                <th>Prix</th>
+                <th>Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var o in Model)
+            {
+                <tr>
+                    <td>@o.Title</td>
+                    <td>@o.Category</td>
+                    <td>@o.Price.ToString("C")</td>
+                    <td>@(o.DateTimeUtc?.ToLocalTime().ToString("dd/MM/yyyy") ?? "-")</td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@o.Id" class="btn btn-sm btn-outline-primary">Modifier</a>
+                        <form asp-action="Delete" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@o.Id" />
+                            <button class="btn btn-sm btn-outline-danger" onclick="return confirm('Supprimer cette offre ?')">Supprimer</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

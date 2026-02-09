@@ -1,0 +1,39 @@
+﻿@model ReservationMVC.Models.InvoiceDetailsVm
+@{
+    ViewData["Title"] = "Facture " + Model.Invoice.Number;
+}
+
+<div class="mb-3 d-flex gap-2">
+    <a asp-controller="Profiles" asp-action="ClientDashboard" class="btn btn-outline-secondary btn-sm">⬅ Retour</a>
+    <a class="btn btn-outline-success btn-sm"
+       asp-action="DownloadPdf"
+       asp-route-id="@Model.Invoice.Id">💾 Télécharger en PDF</a>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h2 class="mb-3">Facture #@Model.Invoice.Number</h2>
+        <p><strong>Date :</strong> @Model.Invoice.IssuedUtc.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</p>
+        <p><strong>Client :</strong> @Model.BuyerDisplay</p>
+        <hr />
+
+        <h5>Détails de la commande</h5>
+        <div class="table-responsive">
+            <table class="table table-sm align-middle">
+                <thead><tr><th>Offre</th><th class="text-end">Qté</th><th class="text-end">Prix unitaire</th></tr></thead>
+                <tbody>
+                    @foreach (var line in Model.Lines)
+                    {
+                        <tr>
+                            <td>@line.Offer?.Title</td>
+                            <td class="text-end">@line.Quantity</td>
+                            <td class="text-end">@line.UnitPrice.ToString("C")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <h4 class="text-end mt-3">Montant total : @Model.Invoice.Amount.ToString("C")</h4>
+    </div>
+</div>

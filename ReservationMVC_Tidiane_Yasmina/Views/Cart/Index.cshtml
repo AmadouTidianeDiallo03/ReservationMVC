@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ReservationMVC.Models.CartItem>
+@{
+    ViewData["Title"] = "Mon panier";
+    decimal total = (decimal)(ViewData["Total"] ?? 0m);
+}
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary btn-sm mb-3">🏠 Retour à l’accueil</a>
+<h2>Mon panier</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Votre panier est vide.</div>
+}
+else
+{
+    <form asp-action="Clear" method="post" class="mb-3 d-flex justify-content-between">
+        @Html.AntiForgeryToken()
+        <button class="btn btn-outline-secondary">Vider le panier</button>
+        <h4 class="mb-0">Total : <strong>@total.ToString("C")</strong></h4>
+    </form>
+
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Offre</th>
+                <th>Catégorie</th>
+                <th>Quantité</th>
+                <th>Prix unitaire</th>
+                <th>Total</th>
+                <th style="width:1%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <td>@i.Offer?.Title</td>
+                    <td>@i.Offer?.Category</td>
+                    <td>@i.Quantity</td>
+                    <td>@i.Offer?.Price.ToString("C")</td>
+                    <td>@i.TotalPrice.ToString("C")</td>
+                    <td class="text-end">
+                        <form asp-action="Remove" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@i.Id" />
+                            <button class="btn btn-sm btn-outline-danger" type="submit">Retirer</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-4 text-end">
+        <a asp-controller="Orders" asp-action="Checkout" class="btn btn-primary btn-lg">
+            Procéder au paiement
+        </a>
+    </div>
+}

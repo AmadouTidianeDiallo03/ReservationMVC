@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "Accueil";
+}
+
+<style>
+    /* Section hero full viewport */
+    .hero-wrap {
+        min-height: calc(100vh - 70px); /* ~ hauteur navbar */
+        background: radial-gradient(1200px 600px at 10% 10%, rgba(25, 135, 84,.12), transparent 60%), radial-gradient(1000px 500px at 90% 20%, rgba(13,110,253,.10), transparent 60%), linear-gradient(180deg, #0d1117 0%, #0b1320 100%);
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-blur {
+        position: absolute;
+        inset: -20%;
+        background: radial-gradient(60% 40% at 70% 30%, rgba(255, 255, 255, .06), transparent 60%), radial-gradient(40% 30% at 20% 70%, rgba(255, 255, 255, .04), transparent 60%);
+        filter: blur(40px);
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .hero-card {
+        background: rgba(255,255,255,.06);
+        border: 1px solid rgba(255,255,255,.12);
+        backdrop-filter: saturate(140%) blur(6px);
+        -webkit-backdrop-filter: saturate(140%) blur(6px);
+        border-radius: 1.25rem;
+        box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+
+    .hero-badge {
+        background: rgba(255,255,255,.12);
+        border: 1px solid rgba(255,255,255,.16);
+        color: #e9ecef;
+        font-weight: 600;
+        letter-spacing: .4px;
+    }
+
+    .feature {
+        background: rgba(255,255,255,.06);
+        border: 1px solid rgba(255,255,255,.12);
+        border-radius: 1rem;
+        padding: 1rem 1.25rem;
+        height: 100%;
+    }
+
+        .feature i {
+            font-size: 1.35rem;
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            border-radius: .8rem;
+            background: rgba(255,255,255,.12);
+            margin-right: .6rem;
+        }
+</style>
+
+<section class="hero-wrap d-flex align-items-center">
+    <div class="hero-blur"></div>
+
+    <div class="container position-relative z-1">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="hero-card p-4 p-md-5 text-center">
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill hero-badge mb-3">
+                        <span>✨ Nouveau</span>
+                        <span class="text-white-50">Réservez en quelques clics</span>
+                    </div>
+
+                    <h1 class="display-4 fw-bold mb-3">
+                        Système de réservation en ligne
+                    </h1>
+                    <p class="lead text-white-50 mx-auto" style="max-width: 760px;">
+                        Réservez vos créneaux <strong>(cinéma, sport, hôtels)</strong> en toute simplicité.
+                        Paiement sécurisé, confirmation instantanée.
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        <a class="btn btn-primary btn-lg px-4"
+                           asp-controller="Offers" asp-action="Index">
+                            Parcourir les offres
+                        </a>
+                        <a class="btn btn-outline-light btn-lg px-4"
+                           asp-controller="Profiles" asp-action="Profile">
+                            Mon profil
+                        </a>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-3 mt-5">
+                        <div class="col">
+                            <div class="feature text-start">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-ticket-perforated"></i>
+                                    <h6 class="mb-0">Cinéma</h6>
+                                </div>
+                                <p class="text-white-50 mb-0">Choisissez votre séance et vos places en quelques secondes.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="feature text-start">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-trophy"></i>
+                                    <h6 class="mb-0">Sport</h6>
+                                </div>
+                                <p class="text-white-50 mb-0">Réservez un terrain, un cours ou un créneau d’entraînement.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="feature text-start">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-building"></i>
+                                    <h6 class="mb-0">Hôtels</h6>
+                                </div>
+                                <p class="text-white-50 mb-0">Trouvez la chambre idéale au bon prix, confirmation instantanée.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-white-50 small mt-4">
+                        Aucun compte ? <a asp-controller="Account" asp-action="Register" class="link-light">Inscrivez-vous</a> en 30 secondes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Icônes Bootstrap (optionnel) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />

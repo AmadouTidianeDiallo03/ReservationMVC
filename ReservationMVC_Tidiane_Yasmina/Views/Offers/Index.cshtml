@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ReservationMVC.Models.Offer>
+@{
+    ViewData["Title"] = "Offres disponibles";
+    var f = ViewData["Filter"] as ReservationMVC.Models.OfferFilter ?? new();
+    var categories = ViewBag.AllowedCategories as string[] ?? Array.Empty<string>();
+    var total = (int)(ViewBag.TotalCount ?? Model.Count());
+}
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary btn-sm mb-3">🏠 Retour à l’accueil</a>
+
+<h1 class="mb-4">Système de réservation en ligne</h1>
+
+<!-- FILTRES : Recherche + Catégorie + Trier par -->
+<form method="get" class="row g-3 align-items-end mb-3">
+    <div class="col-md-3">
+        <label class="form-label">Recherche</label>
+        <input type="text" class="form-control" name="Q" value="@f.Q" placeholder="Titre, description, lieu..." />
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Catégorie</label>
+        <select class="form-select" name="Category">
+            <option value="">-- Toutes --</option>
+            @foreach (var c in categories)
+            {
+                <option value="@c" selected="@(string.Equals(c, f.Category, StringComparison.OrdinalIgnoreCase) ? "selected" : null)">
+                    @c
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-2">
+        <label class="form-label">Trier par</label>
+        <select class="form-select" name="Sort">
+            <option value="">Date ↑</option>
+            <option value="date_desc" selected="@(f.Sort == "date_desc" ? "selected" : null)">Date ↓</option>
+            <option value="price_asc" selected="@(f.Sort == "price_asc" ? "selected" : null)">Prix ↑</option>
+            <option value="price_desc" selected="@(f.Sort == "price_desc" ? "selected" : null)">Prix ↓</option>
+            <option value="title_asc" selected="@(f.Sort == "title_asc" ? "selected" : null)">Titre A→Z</option>
+        </select>
+    </div>
+
+    <div class="col-md-2 form-check mt-4">
+        <input type="checkbox" class="form-check-input" id="chkFuture" name="FutureOnly" value="true"
+               checked="@(f.FutureOnly)" />
+        <label class="form-check-label" for="chkFuture">À venir seulement</label>
+    </div>
+
+    <div class="col-md-2 d-grid">
+        <button class="btn btn-primary" type="submit">Filtrer</button>
+        <a href="@Url.Action("Index", "Offers")" class="btn btn-link btn-sm">Réinitialiser</a>
+    </div>
+</form>
+
+<h4 class="mb-3 text-muted">(@total) créneau(x) disponible(s)</h4>
+
+<div class="row row-cols-1 row-cols-md-3 g-3">
+    @foreach (var o in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="@o.ImageUrl" class="card-img-top" alt="@o.Title" style="object-fit:cover;height:180px;">
+                <div class="card-body">
+                    <h5 class="card-title">@o.Title</h5>
+                    <p class="card-text text-muted mb-1">@o.Category – @o.Location</p>
+                    <p class="card-text small">
+                        @{
+                            var whenText = o.DateTimeUtc.HasValue
+                            ? o.DateTimeUtc.Value.ToLocalTime().ToString("dd/MM/yyyy HH:mm")
+                            : "Date à confirmer";
+                        }
+                        Quand : @whenText
+                    </p>
+                    <h6 class="fw-bold">@o.Price.ToString("0.00") FG</h6>
+                    <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@o.Id">Détails</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-light text-center mt-3">Aucune offre trouvée.</div>
+}

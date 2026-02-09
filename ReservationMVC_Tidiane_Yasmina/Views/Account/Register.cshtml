@@ -1,0 +1,38 @@
+﻿@model ReservationMVC.Models.RegisterInput
+@{
+    ViewData["Title"] = "Inscription";
+}
+<h1 class="mb-3">Inscription</h1>
+
+<form asp-action="Register" method="post" class="card p-3" style="max-width:520px;">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label class="form-label">Nom complet</label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Courriel</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Mot de passe</label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Profil</label>
+        <select asp-for="Role" class="form-select">
+            <option value="0">Client</option>
+            <option value="1">Fournisseur / Organisateur</option>
+        </select>
+        <span class="form-text">Les fournisseurs peuvent publier des offres.</span>
+    </div>
+    <button class="btn btn-success" type="submit">Créer mon compte</button>
+    <a class="btn btn-link" asp-action="Login">J’ai déjà un compte</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

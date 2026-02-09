@@ -1,0 +1,164 @@
+﻿@model ReservationMVC.Models.AdminDashboardVm
+@{
+    ViewData["Title"] = "Tableau de bord fournisseur";
+}
+
+<h2 class="mb-3">Tableau de bord fournisseur</h2>
+
+@if (TempData["Msg"] is string msg)
+{
+    <div class="alert alert-success">@msg</div>
+}
+
+<div class="row g-3 mb-3">
+    <div class="col-md-3">
+        <div class="card border-primary h-100">
+            <div class="card-body text-center">
+                <div class="text-muted">Commandes (total)</div>
+                <div class="fs-4 fw-bold text-primary">@Model.OrdersCount</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-success h-100">
+            <div class="card-body text-center">
+                <div class="text-muted">Commandes payées</div>
+                <div class="fs-4 fw-bold text-success">@Model.PaidOrdersCount</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-dark h-100">
+            <div class="card-body text-center">
+                <div class="text-muted">CA total</div>
+                <div class="fs-4 fw-bold">@Model.TotalRevenue.ToString("0.00") $CAD</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-dark h-100">
+            <div class="card-body text-center">
+                <div class="text-muted">CA aujourd’hui</div>
+                <div class="fs-4 fw-bold">@Model.TodayRevenue.ToString("0.00") $CAD</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3 mb-3">
+    <div class="col-md-3">
+        <div class="card border-info h-100">
+            <div class="card-body text-center">
+                <div class="text-muted">Offres</div>
+                <div class="fs-4 fw-bold text-info">@Model.OffersCount</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-secondary h-100">
+            <div class="card-body text-center">
+                <div class="text-muted">Utilisateurs</div>
+                <div class="fs-4 fw-bold text-secondary">@Model.UsersCount</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        @if (User.IsInRole("Provider") || User.Claims.Any(c => c.Type == "app:role" && c.Value == "Provider"))
+        {
+            <div class="alert alert-info h-100 mb-0">
+                <strong>Mes gains :</strong> @Model.MyRevenue.ToString("0.00") $CAD<br />
+                <strong>Mes commandes :</strong> @Model.MyOrders
+            </div>
+        }
+    </div>
+</div>
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header fw-bold">Top clients</div>
+            <div class="card-body p-0">
+                <table class="table table-sm mb-0">
+                    <thead><tr><th>Client</th><th class="text-end">Montant</th></tr></thead>
+                    <tbody>
+                        @foreach (var t in Model.TopCustomers)
+                        {
+                            <tr>
+                                <td>@t.CustomerEmail</td>
+                                <td class="text-end">@t.Amount.ToString("0.00")</td>
+                            </tr>
+                        }
+                        @if (!Model.TopCustomers.Any())
+                        {
+                            <tr><td colspan="2" class="text-muted p-3">Pas encore de clients payants.</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header fw-bold">Top offres</div>
+            <div class="card-body p-0">
+                <table class="table table-sm mb-0">
+                    <thead><tr><th>Offre</th><th class="text-end">Qté</th><th class="text-end">CA</th></tr></thead>
+                    <tbody>
+                        @foreach (var t in Model.TopOffers)
+                        {
+                            <tr>
+                                <td>@t.OfferTitle</td>
+                                <td class="text-end">@t.Quantity</td>
+                                <td class="text-end">@t.Revenue.ToString("0.00")</td>
+                            </tr>
+                        }
+                        @if (!Model.TopOffers.Any())
+                        {
+                            <tr><td colspan="3" class="text-muted p-3">Aucune vente enregistrée.</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.GlobalFillRate != null)
+{
+    <div class="card mt-3">
+        <div class="card-header fw-bold">Taux de remplissage</div>
+        <div class="card-body p-0">
+            <table class="table table-sm mb-0">
+                <thead><tr><th>Offre</th><th class="text-end">Taux</th></tr></thead>
+                <tbody>
+                    @foreach (var r in Model.FillRates)
+                    {
+                        <tr>
+                            <td>@r.OfferTitle</td>
+                            <td class="text-end">@((r.Rate * 100).ToString("0.0")) %</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot class="table-light">
+                    <tr>
+                        <th>Moyenne</th>
+                        <th class="text-end">@((Model.GlobalFillRate.Value * 100).ToString("0.0")) %</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+}
+
+<form asp-controller="Admin" asp-action="ImportDemo" method="post" class="mt-4">
+    @Html.AntiForgeryToken()
+    <button class="btn btn-outline-primary">
+        Importer des données de démo
+    </button>
+</form>
+<div class="mb-2 d-flex gap-2">
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary btn-sm">🏠 Accueil</a>
+    <a asp-controller="Offers" asp-action="Create" class="btn btn-primary btn-sm">➕ Publier une offre</a>
+</div>

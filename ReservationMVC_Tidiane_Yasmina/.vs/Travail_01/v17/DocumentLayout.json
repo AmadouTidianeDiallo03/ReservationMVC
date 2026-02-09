@@ -1,0 +1,925 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\profileeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\profileeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\profilepagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\profilepagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\services\\dataimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:services\\dataimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\offerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\offerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\invoicedetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\invoicedetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\authinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\authinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\models\\admindashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:models\\admindashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\offerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\offerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\offers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\offers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\offers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\offers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\offers\\myoffers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\offers\\myoffers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\offers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\offers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\offers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\offers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\orders\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\orders\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\profiles\\clientdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\profiles\\clientdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\invoices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\invoices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\profiles\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\profiles\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\profiles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\profiles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\helpers\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:helpers\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251030061157_UpdateDomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251029215019_SyncModel_20251029.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|c:\\users\\hp\\documents\\cours techcomelectr\\travail_01_tidiane_yasmina\\travail_01_tidiane_yasmina\\reservationmvc_tidiane_yasmina\\migrations\\20251030185943_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAA6714-A122-4B5E-87A0-8C810778CEFE}|ReservationMVC.csproj|solutionrelative:migrations\\20251030185943_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\ProviderInvoices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Data\\DataImportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Admin\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CheckoutInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CartPageModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Home\\Error404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Orders\\Checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderLine.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\OrderLine.cs",
+              "RelativeDocumentMoniker": "Models\\OrderLine.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\OrderLine.cs",
+              "RelativeToolTip": "Models\\OrderLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T04:03:03.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileEditVm.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\ProfileEditVm.cs",
+              "RelativeDocumentMoniker": "Models\\ProfileEditVm.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\ProfileEditVm.cs",
+              "RelativeToolTip": "Models\\ProfileEditVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T20:39:17.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfilePageModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\ProfilePageModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProfilePageModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\ProfilePageModel.cs",
+              "RelativeToolTip": "Models\\ProfilePageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:21:49.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:17:32.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataImportService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Services\\DataImportService.cs",
+              "RelativeDocumentMoniker": "Services\\DataImportService.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Services\\DataImportService.cs",
+              "RelativeToolTip": "Services\\DataImportService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:47:52.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T01:55:56.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:32:29.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:29:09.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:30:19.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:18:41.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\Offer.cs",
+              "RelativeDocumentMoniker": "Models\\Offer.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\Offer.cs",
+              "RelativeToolTip": "Models\\Offer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:17:54.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OfferFilter.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\OfferFilter.cs",
+              "RelativeDocumentMoniker": "Models\\OfferFilter.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\OfferFilter.cs",
+              "RelativeToolTip": "Models\\OfferFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T03:51:20.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceDetailsVm.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\InvoiceDetailsVm.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDetailsVm.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\InvoiceDetailsVm.cs",
+              "RelativeToolTip": "Models\\InvoiceDetailsVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T22:31:56.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:19:50.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:18:16.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthInputs.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\AuthInputs.cs",
+              "RelativeDocumentMoniker": "Models\\AuthInputs.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\AuthInputs.cs",
+              "RelativeToolTip": "Models\\AuthInputs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:38:31.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminDashboardVm.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\AdminDashboardVm.cs",
+              "RelativeDocumentMoniker": "Models\\AdminDashboardVm.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Models\\AdminDashboardVm.cs",
+              "RelativeToolTip": "Models\\AdminDashboardVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T06:20:36.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:26:12.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\ProfilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfilesController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\ProfilesController.cs",
+              "RelativeToolTip": "Controllers\\ProfilesController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA1wJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:33:47.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAHsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:24:40.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OffersController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\OffersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OffersController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\OffersController.cs",
+              "RelativeToolTip": "Controllers\\OffersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvzAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:23:05.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "Controllers\\InvoicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T06:24:24.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:23:46.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:24:14.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:25:27.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwCoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T03:48:36.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Index.cshtml",
+              "RelativeToolTip": "Views\\Offers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:34:09.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:35:26.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Offers\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:26:16.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:33:47.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Details.cshtml",
+              "RelativeToolTip": "Views\\Offers\\Details.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:34:39.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyOffers.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\MyOffers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offers\\MyOffers.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\MyOffers.cshtml",
+              "RelativeToolTip": "Views\\Offers\\MyOffers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:26:57.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Offers\\Create.cshtml",
+              "RelativeToolTip": "Views\\Offers\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:34:18.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:33:23.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Orders\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Success.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Orders\\Success.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:27:32.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ClientDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Profiles\\ClientDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\ClientDashboard.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Profiles\\ClientDashboard.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\ClientDashboard.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T17:42:37.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Invoices\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoices\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Invoices\\Details.cshtml",
+              "RelativeToolTip": "Views\\Invoices\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T22:21:02.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProviderInvoices.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\ProviderInvoices.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\ProviderInvoices.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\ProviderInvoices.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\ProviderInvoices.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T06:28:29.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Profiles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Profiles\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\Edit.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:33:18.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Profiles\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profiles\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Profiles\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Profiles\\Profile.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:32:31.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAJEAAAAAAAAAAIBJwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T17:50:25.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Invoices\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T06:27:34.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251030185943_Update.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Migrations\\20251030185943_Update.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251030185943_Update.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Migrations\\20251030185943_Update.cs",
+              "RelativeToolTip": "Migrations\\20251030185943_Update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:59:43.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DataImportService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Data\\DataImportService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Data\\DataImportService.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Data\\DataImportService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Data\\DataImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:25:28.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T04:58:27.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:31:33.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CheckoutInfo.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CheckoutInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CheckoutInfo.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CheckoutInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CheckoutInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:20:59.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CartPageModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CartPageModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CartPageModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CartPageModel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Models\\CartPageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T02:20:16.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ClaimsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Helpers\\ClaimsExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\ClaimsExtensions.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Helpers\\ClaimsExtensions.cs",
+              "RelativeToolTip": "Helpers\\ClaimsExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:43:47.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251030061157_UpdateDomain.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251030061157_UpdateDomain.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251030061157_UpdateDomain.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251030061157_UpdateDomain.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251030061157_UpdateDomain.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T06:11:58.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:19:34.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T22:06:46.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251029215019_SyncModel_20251029.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251029215019_SyncModel_20251029.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251029215019_SyncModel_20251029.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251029215019_SyncModel_20251029.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Migrations\\20251029215019_SyncModel_20251029.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:50:19.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Cours TechComElectr\\Travail_01_Tidiane_Yasmina\\Travail_01_Tidiane_Yasmina\\ReservationMVC_Tidiane_Yasmina\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:19:03.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Error404.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Home\\Error404.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Home\\Error404.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Home\\Error404.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Home\\Error404.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T03:42:06.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Orders\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Orders\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Orders\\Checkout.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Travail_01_TCE\\ReservationMVC\\Views\\Orders\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T02:32:56.55Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

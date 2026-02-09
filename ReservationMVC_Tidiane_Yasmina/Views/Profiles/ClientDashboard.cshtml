@@ -1,0 +1,85 @@
+﻿@model ReservationMVC.Models.ProfilePageModel
+@{
+    ViewData["Title"] = "Tableau de bord client";
+    var orders = Model?.RecentOrders ?? new List<ReservationMVC.Models.Order>();
+    var invoices = Model?.Invoices ?? new List<ReservationMVC.Models.Invoice>();
+}
+
+<h1 class="mb-4">Tableau de bord client</h1>
+
+<div class="mb-3">
+    <a class="btn btn-outline-secondary btn-sm" asp-controller="Home" asp-action="Index">🏠 Retour à l’accueil</a>
+    <a class="btn btn-outline-primary btn-sm" asp-controller="Profiles" asp-action="Profile">👤 Mon profil</a>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-6">
+        <div class="card h-100">
+            <div class="card-header">Mes dernières commandes</div>
+            <div class="card-body p-0">
+                @if (!orders.Any())
+                {
+                    <div class="p-3 text-muted">Aucune commande pour l’instant.</div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-sm mb-0">
+                            <thead><tr><th>Date</th><th class="text-end">Montant</th><th>Statut</th></tr></thead>
+                            <tbody>
+                                @foreach (var o in orders)
+                                {
+                                    <tr>
+                                        <td>@o.CreatedUtc.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</td>
+                                        <td class="text-end">@o.TotalAmount.ToString("C")</td>
+                                        <td>@o.Status</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="card h-100">
+            <div class="card-header">Mes factures</div>
+            <div class="card-body p-0">
+                @if (!invoices.Any())
+                {
+                    <div class="p-3 text-muted">Aucune facture disponible.</div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-sm mb-0 align-middle">
+                            <thead><tr><th>Numéro</th><th>Date</th><th class="text-end">Montant</th><th></th></tr></thead>
+                            <tbody>
+                                @foreach (var f in invoices)
+                                {
+                                    <tr>
+                                        <td>@f.Number</td>
+                                        <td>@f.IssuedUtc.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</td>
+                                        <td class="text-end">@f.Amount.ToString("C")</td>
+                                        <td class="text-end">
+                                            <a class="btn btn-sm btn-outline-primary"
+                                               asp-controller="Invoices"
+                                               asp-action="Details"
+                                               asp-route-id="@f.Id">Voir</a>
+                                            <a class="btn btn-sm btn-outline-success"
+                                               asp-controller="Invoices"
+                                               asp-action="DownloadPdf"
+                                               asp-route-id="@f.Id">💾 PDF</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,83 @@
+﻿@model ReservationMVC.Models.Offer
+@{
+    ViewData["Title"] = Model.Title;
+
+    bool isAuth = User?.Identity?.IsAuthenticated ?? false;
+    bool isProvider = isAuth && (User?.Claims?.Any(c => c.Type == "app:role" && c.Value == "Provider") ?? false);
+    bool canEdit = (ViewBag.CanEdit as bool?) ?? false; // passé par le contrôleur
+}
+
+<a asp-controller="Offers" asp-action="Index" class="btn btn-outline-secondary btn-sm mb-3">
+    <i class="bi bi-arrow-left"></i> ⬅ Retour aux offres
+</a>
+
+<div class="row g-3">
+    <div class="col-md-6">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="img-fluid rounded" alt="@Model.Title" />
+        }
+        else
+        {
+            <div class="bg-light border rounded d-flex align-items-center justify-content-center" style="height:320px">
+                <span class="text-muted">Pas d'image</span>
+            </div>
+        }
+    </div>
+
+    <div class="col-md-6">
+        <h2>@Model.Title</h2>
+        <p class="text-muted">@Model.Category • @Model.Location</p>
+
+        @if (Model.DateTimeUtc.HasValue)
+        {
+            <p><strong>Date/heure :</strong> @Model.DateTimeUtc.Value.ToLocalTime().ToString("dddd dd MMMM yyyy HH:mm")</p>
+        }
+
+        <p><strong>Prix :</strong> @Model.Price.ToString("C")</p>
+
+        @if (!string.IsNullOrWhiteSpace(Model.Description))
+        {
+            <p class="mt-3">@Model.Description</p>
+        }
+
+        <div class="d-flex flex-wrap gap-2 mt-4">
+            @* Client : bouton d'achat *@
+            @if (!isProvider)
+            {
+                <form asp-controller="Cart" asp-action="Add" method="post" class="d-inline">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="offerId" value="@Model.Id" />
+                    <button type="submit" class="btn btn-primary">
+                        Ajouter au panier
+                    </button>
+                </form>
+            }
+            else
+            {
+                <span class="text-warning align-self-center">
+                    Les fournisseurs ne peuvent pas effectuer d'achats.
+                </span>
+            }
+
+            <a class="btn btn-outline-secondary" asp-action="Index">Retour aux offres</a>
+
+            @* Fournisseur propriétaire : boutons de gestion *@
+            @if (canEdit)
+            {
+                <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model.Id">
+                    Modifier cette offre
+                </a>
+
+                <form asp-action="Delete" method="post" class="d-inline">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button class="btn btn-outline-danger"
+                            onclick="return confirm('Supprimer cette offre ?')">
+                        Supprimer
+                    </button>
+                </form>
+            }
+        </div>
+    </div>
+</div>
