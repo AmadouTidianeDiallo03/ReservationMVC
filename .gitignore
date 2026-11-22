@@ -1,0 +1,9 @@
+# Fichiers générés par la compilation / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+
+# Secrets locaux
+.env
+appsettings.*.local.json
